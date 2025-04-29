@@ -21,3 +21,6 @@ def projetos_view(request):
 def lista_tecnologias(request):
     tecnologias = Tecnologia.objects.prefetch_related('projetos')
     return render(request, 'portfolio/tecnologias.html', {'tecnologias': tecnologias})
+
+def cv_view(request):
+    return render(request, 'portfolio/cv.html')

@@ -1,0 +1,25 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1>Sobre Mim</h1>
+
+    <p>Olá! Sou um estudante de <strong>Engenharia Informática</strong> no <strong>2º ano</strong> e tenho um grande interesse por programação e gosto de aprender coisas novas.</p>
+
+    <h2>Competências Técnicas</h2>
+    <a>Programação em Java (OOP, interfaces gráficas, testes com JUnit)</a><br>
+    <a>Python (Django)</a><br>
+    <a>Desenvolvimento Web com HTML, CSS,JS,React,NextJS,Django</a><br>
+    <a>Git e GitHub</a><br>
+    <a>Bases de dados: SQLite e MySQL</a><br>
+
+    <h2>Projetos Realizados</h2>
+    <p>Durante o curso, tenho desenvolvido vários projetos que aplicam os conhecimentos adquiridos. Podes ver os detalhes dos meus <a href="{% url 'portfolio:projetos' %}">projetos aqui</a>.</p>
+
+    <h2>Tecnologias que Domino</h2>
+    <p>Consulta as <a href="{% url 'portfolio:lista_tecnologias' %}">tecnologias</a> que tenho usado ao longo dos meus projetos académicos.</p>
+
+    <h2>Contactos</h2>
+    <p>GitHub: <a href="https://github.com/pedrocardoso003" target="_blank">pedrocardoso003</a></p>
+</div>
+{% endblock %}
