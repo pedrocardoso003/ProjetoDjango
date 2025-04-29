@@ -1,0 +1,35 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+<h2>Meus Projetos</h2>
+
+{% for projeto in projetos %}
+<div class="projeto">
+    <h3>{{ projeto.titulo }}</h3>
+    <p><strong>Descrição:</strong> {{ projeto.descricao }}</p>
+    <p><strong>Disciplina:</strong> {{ projeto.disciplina.nome }}</p>
+    <p><strong>Conceitos aplicados:</strong> {{ projeto.conceitos_aplicados }}</p>
+
+    {% if projeto.github_link %}
+        <p><a href="{{ projeto.github_link }}" target="_blank">GitHub</a></p>
+    {% endif %}
+    {% if projeto.video_demo_link %}
+        <p><a href="{{ projeto.video_demo_link }}" target="_blank">Vídeo Demonstração</a></p>
+    {% endif %}
+
+    <h4>Tecnologias:</h4>
+    {% for tecnologia in projeto.tecnologias.all %}
+        {{ tecnologia.nome }}
+    {% endfor %}
+
+    {% if projeto.imagens.all %}
+        <h4>Imagens:</h4>
+        {% for imagem in projeto.imagens.all %}
+        <img src="{{ imagem.imagem.url }}" width="200" alt="Imagem de {{ projeto.titulo }}">
+        {% endfor %}
+    {% endif %}
+</div>
+<hr>
+{% endfor %}
+{% endblock %}
+

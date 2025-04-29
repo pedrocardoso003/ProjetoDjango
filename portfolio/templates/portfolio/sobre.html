@@ -1,0 +1,84 @@
+{% extends "portfolio/base.html" %}
+{% load static %}
+
+{% block content %}
+<style>
+    .secao {
+        margin-bottom: 40px;
+    }
+
+    .secao h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+
+    .img-diagrama {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+    ul li {
+        margin-bottom: 8px;
+    }
+
+    .github-link {
+        font-weight: bold;
+        font-size: 18px;
+    }
+</style>
+
+<div class="secao">
+    <h1>Sobre a Aplicação de Portfólio</h1>
+    <p>Nesta aplicação são utilizadas tecnologias essenciais no desenvolvimento web moderno:</p>
+    <p>Esta página irá incluir a descrição de aspectos técnicos que implementam esta aplicação web.</p>
+</div>
+
+<div class="secao">
+    <h2>Tecnologias Utilizadas</h2>
+    <a><strong>Backend:</strong> Django (Python)</a><br>
+    <a><strong>Frontend:</strong> HTML5, CSS3 (com templates do Django)</a><br>
+    <a><strong>Base de Dados:</strong> SQLite (desenvolvimento), MySQL (produção)</a><br>
+    <a><strong>Serviços:</strong> PythonAnywhere (deployment)</a><br>
+    <a><strong>Ferramentas:</strong> Git, GitHub, VS Code</a><br>
+</div>
+
+<div class="secao">
+    <h2>Arquitetura da Aplicação</h2>
+    <p>A aplicação segue o padrão arquitetural <strong>MVT (Model-View-Template)</strong>:</p>
+    <a><strong>Model:</strong> Define a estrutura dos dados (ex: Projeto, Tecnologia, Disciplina)</a><br>
+    <a><strong>View:</strong> Processa requisições e seleciona os dados a exibir</a><br>
+    <a><strong>Template:</strong> Define como os dados são apresentados ao utilizador</a><br>
+    <p>Abaixo está o diagrama ilustrativo da arquitetura da aplicação:</p><br>
+</div>
+
+<div class="secao">
+    <h2>Modelação e Diagrama DER</h2>
+    <p>A modelação da aplicação representa entidades como <strong>Projeto</strong>, <strong>Disciplina</strong>, <strong>Tecnologia</strong> e <strong>Imagem do Projeto</strong>. A relação entre os modelos é a seguinte:</p>
+    <a><strong>Projeto</strong> tem uma relação ManyToMany com <strong>Tecnologia</strong></a><br>
+    <a><strong>Projeto</strong> tem uma relação ForeignKey com <strong>Disciplina</strong></a><br>
+    <a><strong>ImagemProjeto</strong> tem uma relação ForeignKey com <strong>Projeto</strong></a><br>
+    <a><strong>DetalhesExtras</strong> tem uma relação OneToOne com <strong>Projeto</strong></a><br>
+    <img src="{% static 'portfolio/img/diagrama.png' %}" alt="Diagrama DER" class="img-diagrama">
+</div>
+
+<div class="secao">
+    <h2>Estrutura das Páginas</h2>
+    <p>A aplicação é composta pelas seguintes páginas principais:</p>
+    <a><strong>Home:</strong> Apresentação geral</a><br>
+    <a><strong>Projetos:</strong> Lista e detalhes dos projetos realizados</a><br>
+    <a><strong>Tecnologias:</strong> Tecnologias utilizadas nos projetos</a><br>
+    <a><strong>Sobre:</strong> Descrição técnica e funcional da aplicação (esta página)</a><br>
+    <p><em>(Mapa das páginas será incluído manualmente conforme solicitado)</em></p>
+</div>
+
+<div class="secao">
+    <h2>Repositório no GitHub</h2>
+    <p class="github-link">
+        <a href="https://github.com/teu-utilizador/portfolio-django" target="_blank">Ver código no GitHub</a>
+    </p>
+</div>
+{% endblock %}

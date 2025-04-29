@@ -1,0 +1,190 @@
+[
+  {
+    "nome": "Led Zeppelin IV",
+    "anoLancamento": "1971",
+    "banda": "Led Zeppelin",
+    "musicas": [
+      {"nome": "Black Dog", "duracao": "4:55"},
+      {"nome": "Stairway to Heaven", "duracao": "8:02"},
+      {"nome": "Rock and Roll", "duracao": "3:40"}
+    ]
+  },
+  {
+    "nome": "Nevermind",
+    "anoLancamento": "1991",
+    "banda": "Nirvana",
+    "musicas": [
+      {"nome": "Smells Like Teen Spirit", "duracao": "5:01"},
+      {"nome": "Come as You Are", "duracao": "3:39"},
+      {"nome": "Lithium", "duracao": "4:17"}
+    ]
+  },
+  {
+    "nome": "A Night at the Opera",
+    "anoLancamento": "1975",
+    "banda": "Queen",
+    "musicas": [
+      {"nome": "Bohemian Rhapsody", "duracao": "5:55"},
+      {"nome": "You're My Best Friend", "duracao": "2:52"}
+    ]
+  },
+  {
+    "nome": "Exile on Main St.",
+    "anoLancamento": "1972",
+    "banda": "The Rolling Stones",
+    "musicas": [
+      {"nome": "Tumbling Dice", "duracao": "3:38"},
+      {"nome": "Rocks Off", "duracao": "4:31"}
+    ]
+  },
+  {
+    "nome": "The Dark Side of the Moon",
+    "anoLancamento": "1973",
+    "banda": "Pink Floyd",
+    "musicas": [
+      {"nome": "Time", "duracao": "6:53"},
+      {"nome": "Money", "duracao": "6:22"},
+      {"nome": "Us and Them", "duracao": "7:49"}
+    ]
+  },
+  {
+    "nome": "Wasting Light",
+    "anoLancamento": "2011",
+    "banda": "Foo Fighters",
+    "musicas": [
+      {"nome": "Rope", "duracao": "4:19"},
+      {"nome": "Walk", "duracao": "4:16"},
+      {"nome": "These Days", "duracao": "4:58"}
+    ]
+  },
+  {
+    "nome": "Is This It",
+    "anoLancamento": "2001",
+    "banda": "The Strokes",
+    "musicas": [
+      {"nome": "Last Nite", "duracao": "3:17"},
+      {"nome": "Someday", "duracao": "3:07"},
+      {"nome": "Hard to Explain", "duracao": "3:47"}
+    ]
+  },
+  {
+    "nome": "AM",
+    "anoLancamento": "2013",
+    "banda": "Arctic Monkeys",
+    "musicas": [
+      {"nome": "Do I Wanna Know?", "duracao": "4:33"},
+      {"nome": "R U Mine?", "duracao": "3:21"},
+      {"nome": "Why'd You Only Call Me When You're High?", "duracao": "2:41"}
+    ]
+  },
+  {
+    "nome": "Dois",
+    "anoLancamento": "1986",
+    "banda": "Legião Urbana",
+    "musicas": [
+      {"nome": "Eduardo e Mônica", "duracao": "4:34"},
+      {"nome": "Tempo Perdido", "duracao": "4:27"},
+      {"nome": "Quase Sem Querer", "duracao": "4:12"}
+    ]
+  },
+  {
+    "nome": "Cabeça Dinossauro",
+    "anoLancamento": "1986",
+    "banda": "Titãs",
+    "musicas": [
+      {"nome": "Polícia", "duracao": "1:50"},
+      {"nome": "Homem Primata", "duracao": "2:23"},
+      {"nome": "O Quê", "duracao": "3:03"}
+    ]
+  },
+  {
+    "nome": "Physical Graffiti",
+    "anoLancamento": "1975",
+    "banda": "Led Zeppelin",
+    "musicas": [
+      {"nome": "Kashmir", "duracao": "8:37"},
+      {"nome": "Trampled Under Foot", "duracao": "5:36"}
+    ]
+  },
+  {
+    "nome": "In Utero",
+    "anoLancamento": "1993",
+    "banda": "Nirvana",
+    "musicas": [
+      {"nome": "Heart-Shaped Box", "duracao": "4:41"},
+      {"nome": "Rape Me", "duracao": "2:50"}
+    ]
+  },
+  {
+    "nome": "The Game",
+    "anoLancamento": "1980",
+    "banda": "Queen",
+    "musicas": [
+      {"nome": "Another One Bites the Dust", "duracao": "3:36"},
+      {"nome": "Crazy Little Thing Called Love", "duracao": "2:42"}
+    ]
+  },
+  {
+    "nome": "Sticky Fingers",
+    "anoLancamento": "1971",
+    "banda": "The Rolling Stones",
+    "musicas": [
+      {"nome": "Brown Sugar", "duracao": "3:49"},
+      {"nome": "Wild Horses", "duracao": "5:42"}
+    ]
+  },
+  {
+    "nome": "The Wall",
+    "anoLancamento": "1979",
+    "banda": "Pink Floyd",
+    "musicas": [
+      {"nome": "Another Brick in the Wall, Pt. 2", "duracao": "3:59"},
+      {"nome": "Comfortably Numb", "duracao": "6:24"}
+    ]
+  },
+  {
+    "nome": "Echoes, Silence, Patience & Grace",
+    "anoLancamento": "2007",
+    "banda": "Foo Fighters",
+    "musicas": [
+      {"nome": "The Pretender", "duracao": "4:29"},
+      {"nome": "Long Road to Ruin", "duracao": "3:44"}
+    ]
+  },
+  {
+    "nome": "Room on Fire",
+    "anoLancamento": "2003",
+    "banda": "The Strokes",
+    "musicas": [
+      {"nome": "Reptilia", "duracao": "3:39"},
+      {"nome": "12:51", "duracao": "2:33"}
+    ]
+  },
+  {
+    "nome": "Favourite Worst Nightmare",
+    "anoLancamento": "2007",
+    "banda": "Arctic Monkeys",
+    "musicas": [
+      {"nome": "Fluorescent Adolescent", "duracao": "3:03"},
+      {"nome": "505", "duracao": "4:13"}
+    ]
+  },
+  {
+    "nome": "Legião Urbana",
+    "anoLancamento": "1985",
+    "banda": "Legião Urbana",
+    "musicas": [
+      {"nome": "Será", "duracao": "2:22"},
+      {"nome": "Ainda É Cedo", "duracao": "3:54"}
+    ]
+  },
+  {
+    "nome": "Õ Blésq Blom",
+    "anoLancamento": "1989",
+    "banda": "Titãs",
+    "musicas": [
+      {"nome": "Flores", "duracao": "4:00"},
+      {"nome": "Miséria", "duracao": "3:21"}
+    ]
+  }
+]

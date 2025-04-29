@@ -1,0 +1,63 @@
+[
+    {
+      "nome": "Led Zeppelin",
+      "anoDeCriacao": "1968",
+      "informacoes": "Reino Unido",
+      "foto": null
+    },
+    {
+      "nome": "Nirvana",
+      "anoDeCriacao": "1987",
+      "informacoes": "Estados Unidos",
+      "foto": null
+    },
+    {
+      "nome": "Queen",
+      "anoDeCriacao": "1970",
+      "informacoes": "Reino Unido",
+      "foto": null
+    },
+    {
+      "nome": "The Rolling Stones",
+      "anoDeCriacao": "1962",
+      "informacoes": "Reino Unido",
+      "foto": null
+    },
+    {
+      "nome": "Pink Floyd",
+      "anoDeCriacao": "1965",
+      "informacoes": "Reino Unido",
+      "foto": null
+    },
+    {
+      "nome": "Foo Fighters",
+      "anoDeCriacao": "1994",
+      "informacoes": "Estados Unidos",
+      "foto": null
+    },
+    {
+      "nome": "The Strokes",
+      "anoDeCriacao": "1998",
+      "informacoes": "Estados Unidos",
+      "foto": null
+    },
+    {
+      "nome": "Arctic Monkeys",
+      "anoDeCriacao": "2002",
+      "informacoes": "Reino Unido",
+      "foto": null
+    },
+    {
+      "nome": "Legião Urbana",
+      "anoDeCriacao": "1982",
+      "informacoes": "Brasil",
+      "foto": null
+    },
+    {
+      "nome": "Titãs",
+      "anoDeCriacao": "1982",
+      "informacoes": "Brasil",
+      "foto": null
+    }
+  ]
+  

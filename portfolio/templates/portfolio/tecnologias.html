@@ -1,0 +1,78 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+
+<style>
+    .tecnologia-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .tecnologia-card {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        background-color: #fafafa;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .tecnologia-logo {
+        max-width: 100px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    .tecnologia-nome {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .tecnologia-descricao {
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 10px;
+    }
+
+    .tecnologia-card ul {
+        padding-left: 20px;
+    }
+
+    .tecnologia-card a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+    .tecnologia-card a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<h1 class="text-2xl font-bold mb-4">Tecnologias Utilizadas</h1>
+
+<div class="tecnologia-container">
+    {% for tecnologia in tecnologias %}
+    <div class="tecnologia-card">
+        {% if tecnologia.logo %}
+            <img src="{{ tecnologia.logo.url }}" alt="{{ tecnologia.nome }}" class="w-20 h-20 object-contain mb-2">
+        {% endif %}
+        <h2 class="text-xl font-semibold">{{ tecnologia.nome }}</h2>
+        {% if tecnologia.link %}
+            <p><a href="{{ tecnologia.link }}" class="text-blue-600 underline" target="_blank">Visitar link</a></p>
+        {% endif %}
+        <p class="text-gray-700 mt-2">{{ tecnologia.descricao }}</p>
+        <h3 class="font-semibold mt-3">Projetos onde é utilizada:</h3>
+        {% for projeto in tecnologia.projetos.all %}
+            <a>{{ projeto.titulo }}</a>
+            {% empty %}
+            <a>Nenhum projeto associado.</a>
+            {% endfor %}
+    </div>
+    <br>
+    {% endfor %}
+</div>
+{% endblock %}

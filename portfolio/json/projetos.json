@@ -1,0 +1,468 @@
+[
+    {
+        "nome": "Lançamento do Projétil",
+        "descricao": "O programa pede a altura, a velocidade inicial e o ângulo. Temos o output de um gráfico do trajeto do projétil consoante os inputs inseridos Podemos repetir o programa o quanto desejarmos.",
+        "disciplina": "Fundamentos de Física",
+        "ano": "1º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/1fk8l_IUJxM?si=byDK8EHDIOcvCn37&controls=0",
+        "tecnologias": [
+            "Kotlin"
+        ],
+        "conceitos": [
+            "Referencial, posição e trajetória.",
+            "Movimento no espaço. Projéteis",
+            "Programação em Kotlin: leitura do teclado, escrita no ecrã."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Jogo das Tendas",
+        "descricao": "Desenvolver uma grelha 2D que simule o terreno do jogo, com árvores distribuídas aleatoriamente. Permitir que o jogador coloque tendas junto às árvores, assegurando que cada tenda esteja ligada apenas a uma árvore. Implementar regras para assegurar que as tendas não se toquem, nem mesmo na diagonal, e criar uma interface de linha de comando para a interação do jogador com o jogo.",
+        "disciplina": "Fundamentos de Programação",
+        "ano": "1º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Kotlin",
+            "IntelliJ"
+        ],
+        "conceitos": [
+            "Programação em Kotlin: ciclos, funções, arrays, arrays2D, leitura do teclado, escrita no ecrã."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Fórum no Moodle – discussão & partilha",
+        "descricao": "Implementação e dinamização do módulo de fórum no Moodle para facilitar a discussão e partilha de conhecimentos relacionados com a unidade curricular. O projeto visa a interatividade dos estudantes através da criação, comentário e partilha de tópicos de discussão sobre Marketing e áreas conexas, utilizando o Moodle como plataforma de ensino à distância.",
+        "disciplina": "Teoria e Prática de Marketing",
+        "ano": "1º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Moodle"
+        ],
+        "conceitos": [
+            "Pesquisa de informação e identificação de tendências",
+            "Abordagem a novas tecnologias usadas no Marketing",
+            "Relevância da Inteligência Artificial no Marketing Digital"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Batalha Naval",
+        "descricao": "Desenvolver uma grelha 2D que simule a arena do jogo, com navios e marcadores de jogadas anteriores. Criar uma interface de linha de comando para a interação do jogador com o jogo.",
+        "disciplina": "Fundamentos de Programação",
+        "ano": "1º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/CYT0lOyQrro?si=Znra14kfXJoGq7PK&controls=0",
+        "tecnologias": [
+            "Kotlin",
+            "IntelliJ"
+        ],
+        "conceitos": [
+            "Programação em Kotlin: ciclos, funções, arrays, arrays2D, leitura do teclado, escrita no ecrã."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Transmissão AM e FM",
+        "descricao": "Estudo e implementação de esquemas de transmissão AM e FM Aplicação dos conceitos de análise de componentes e de teoria de circuitos.",
+        "disciplina": "Fundamentos de Electrónica",
+        "ano": "1º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/-VA9xwwORqo?si=Yn31AGAXXXgeSI58&controls=0",
+        "tecnologias": [
+            "Multisim, software de simulação de circuitos eletrónicos e análise SPICE (Simulation Program with Integrated Circuit Emphasis)"
+        ],
+        "conceitos": [
+            "Tópicos de análise de teoria de circuitos."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Rock in DEISI",
+        "descricao": "Desenvolver uma aplicação de linhas de comando em Java que permite realizar queries relativamente sofisticadas sobre uma base de dados real contendo informações sobre músicas e artistas dos últimos 100 anos, obtidas de repositórios públicos. A base de dados é representada em ficheiros CSV e os alunos devem implementar estruturas de dados em memória para responder às queries eficientemente.",
+        "disciplina": "Algoritmia e Estruturas de Dados",
+        "ano": "1º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Java",
+            "ntelliJ",
+            "JUnit",
+            "ChatGPT"
+        ],
+        "conceitos": [
+            "Algoritmos de ordenação e pesquisa",
+            "Estruturas de dados otimizadas para pesquisa como árvores e hashtables",
+            "Deteção de bottlenecks",
+            "Utilização de otimizações não-algorítmicas como buffering"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "IT in competences development",
+        "descricao": "Desenvolvimento de competências via projetos tecnológicos (apps, jogos, websites), incluindo análise de mercado e estratégias de monetização. Apresentação de 10 minutos para captação de investimento, seguida de avaliação pelos pares.",
+        "disciplina": "Competências Comportamentais",
+        "ano": "1º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Diversas. Ficou ao critério dos alunos a definição dos pressupostos técnicos, não havendo limitações"
+        ],
+        "conceitos": [
+            "Critical Thinking, apresentações públicas, personal marketing e desenvolvimento de competências."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "DEISI Jungle",
+        "descricao": "Desenvolver em Java uma aplicação gráfica (desktop) para um jogo de tabuleiro com animais, que envolve estratégia e movimentação baseada em características animais e alimentares O jogo suporta até 4 jogadores, cada um iniciando com um animal diferente, e inclui elementos como alimentação e energia, influenciando a dinâmica do jogo.",
+        "disciplina": "Linguagens de Programação II",
+        "ano": "2º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Java e Kotlin (os alunos misturaram as duas linguagens no projeto)",
+            "IntelliJ",
+            "Git/GitHub",
+            "JUnit"
+        ],
+        "conceitos": [
+            "Utilização correta de conceitos de programação orientada a objetos como encapsulamento, herança e polimorfismo.",
+            "Boas práticas de código e design de software, com expectativa de mais de 3000 linhas de código.",
+            "Planeamento com UML antes da codificação e uso intensivo de testes unitários em JUnit para garantir qualidade."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Deteção e Reconhecimento de Jogos de Xadrez",
+        "descricao": "O desafio proposto visa aplicar os conhecimentos adquiridos em contexto de aula a fim de reconhecer tabuleiros de xadrez e as peças que neles constam. A identificação das peças é feita através de uma comparação com recurso a vários tipos de imagens fornecidas pelos docentes. Pretende-se também que sejam combinadas as funções em métodos únicos disponíveis ao utilizador de forma acessível através de uma interface onde são mostradas as imagens bem como a informação resultante das funcionalidades pretendidas.",
+        "disciplina": "Processamento de Imagem",
+        "ano": "2º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "OpenCV",
+            "HSV &amp; RGB (modelo de cor)",
+            "Histogramas",
+            "Binarização",
+            "Funções de recorte e rotação de imagens",
+            "Interface gráfica (GUI) para manipulação de imagens"
+        ],
+        "conceitos": [
+            "Processamento de imagens",
+            "Conversão de RGB para HSV (Hue, Saturation, Value)",
+            "Deteção e reconhecimento de padrões",
+            "Filtros de processamento de imagem (Negativo, Média,…)",
+            "Rotação de imagens e correção de ângulos",
+            "Comparação pixel a pixel de imagens",
+            "Tratamento de ruído (remoção de lixo)",
+            "Ajuste de brilho e contraste",
+            "Algoritmos de erosão e dilatação"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Casa Inteligente",
+        "descricao": "No âmbito da disciplina de arquitetura avançada de computadores decidimos como projeto final criar uma casa inteligente. O objetivo principal era criar um casa para um dia a dia mais pratico e facil. Na nossa casa contamos com um sistema de segurança com fechadura com um código e um sistema de alarme por movimento. Iluminação interior e exterior com sensores para uma eficiência energética melhor. Um sistema de ar condicionado com um display que disponibiliza a temperatura ambiente da casa bem como o estado de funcionamento do ar condicionado. Contamos tambem com uma persiana automática e uma campainha.",
+        "disciplina": "Arquitetura Avançada de Computadores",
+        "ano": "2º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/e7tn1MmF61o?si=01byHtJslF8TIDND&controls=0",
+        "tecnologias": [
+            "C",
+            "Arduino IDE",
+            "Thinkercad"
+        ],
+        "conceitos": [
+            "Arduino",
+            "Programação em C"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Controlo e Gestão de Ginásio",
+        "descricao": "Criação de um sistema automatizado com arduinos Há liberdade de escolha do propósito do projeto",
+        "disciplina": "Arquitetura Avançada de Computadores",
+        "ano": "2º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/Qi2JtxXrrzc?si=ziH2zIKeJTcbcubY&controls=0",
+        "tecnologias": [
+            "Simulação no Thinkercad",
+            "Arduino Uno R3, ou outro modelo",
+            "Arduino IDE"
+        ],
+        "conceitos": [
+            "Montagem de circuitos eletrónicos com múltiplos sensores",
+            "Programação em C++"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "DEISI Chess",
+        "descricao": "Criação um jogo de Xadrez! Na primeira parte deste projeto os alunos são desafiados a criar a lógica por trás deste jogo, sendo que vão começar apenas a jogar com Reis. Na segunda parte vão ser incorporadas as outras peças de maneira a completar este jogo.",
+        "disciplina": "Linguagens de Programação II",
+        "ano": "2º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/_DoKjzZGHXQ?si=3LfQrJZFZlXuWHbO&controls=0",
+        "tecnologias": [
+            "linguagens de programação Java e de Kotlin",
+            "testes em JUnit 5",
+            "criação de um repositório Git no GitHub"
+        ],
+        "conceitos": [
+            "diagramas UML",
+            "programação orientada a objetos de acordo com o teorema do encapsulamento"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Modelação, ETL e Reporting",
+        "descricao": "Modelação de uma base de dados relacional transformando-a em um modelo dimensional (estrela) usando o Oracle Data Modeler Implementação de processos ETL para transferência e transformação de dados para um Datawarehouse com o Pentaho Data Integration Criação de relatórios e dashboards analíticos com visualizações interativas utilizando o Power BI Desktop, para facilitar a tomada de decisão baseada em dados",
+        "disciplina": "Sistemas de Suporte à Decisão",
+        "ano": "2º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Oracle Data Modeler",
+            "Pentaho Data Integration",
+            "Power BI Desktop"
+        ],
+        "conceitos": [
+            "Modelação Dimensional – o modelo em Estrela",
+            "Extração, transformação e carregamento de dados para um Datawarehouse",
+            "Análise de dados – Ferramentas de Reporting"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Portfolio",
+        "descricao": "Criação de aplicação Web com um portfolio. Segue o modelo Model-View-Control. Integra modelação e implementação de uma base de dados, desenvolvimento de toda a lógica de negócio, e criação de interfaces Web. Criação de uma aplicações sobre o curso (com informação das disciplinas e seus conteudos), projetos realizados Criação de um blog, que permite comentários e ratings Interligação com APIs",
+        "disciplina": "Programação Web",
+        "ano": "2º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Python , Django, Selenium",
+            "MySQL",
+            "HTML, CSS, JavaScript",
+            "GitHub e PythonAnywhere"
+        ],
+        "conceitos": [
+            "Model-view-control",
+            "Framework de desenvolvimento web django, para backend e frontend",
+            "Modelação de bases de dados",
+            "Criação de interfaces Web",
+            "Desenvolvimento de APIs, web scraping e automação",
+            "Utilização de uma Platform as a Service (PaaS)"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Rede Nacional da BetaLda",
+        "descricao": "O principal objetivo deste projeto é projetar e implementar uma rede de computadores eficiente e segura para a empresa Beta Lda., que possui sede em Lisboa e filiais em várias cidades portuguesas, nomeadamente Porto, Portimão, Setúbal e Coimbra.",
+        "disciplina": "Redes de Computadores",
+        "ano": "2º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Cisco Packet Tracer"
+        ],
+        "conceitos": [
+            "Configuração no Packet Tracer: Utilizar o software Cisco Packet Tracer para simular a rede, configurando os dispositivos e serviços conforme os requisitos do projeto.",
+            "Divisão de Sub-redes e VLANs: Implementar a segmentação da rede através de sub-redes e VLANs, seguindo as regras estabelecidas para endereços IP e IDs de VLANs.",
+            "Implementação dos Serviços de Rede: Configurar os servidores DNS, DHCP, de ficheiros e backup controlador de domínio, garantindo que todos os serviços estejam operacionais.",
+            "Configuração do Roteamento: Selecionar e configurar o protocolo de roteamento adequado para assegurar a comunicação eficiente entre as diferentes partes da rede.",
+            "Testes de Conectividade: Realizar uma série de testes de conectividade para verificar a comunicação entre a sede e as filiais, bem como entre dispositivos dentro das VLANs."
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Portfolio",
+        "descricao": "Desenvolvimento de um portfólio que apresenta quatro aplicações distintas: uma aplicação com uma listagem de bandas e seus álbuns, uma aplicação de um jornal online, um diretório de um curso com a listagem de projetos e seus componentes relacionados, e uma aplicação de meteorologia. Cada aplicação segue o padrão Model-View-Controller (MVC), integrando modelagem de base de dados, lógica de negócios e interfaces web. O jornal também inclui recursos como comentários e avaliações, a meteorologia a integração com APIs externas para melhorar as funcionalidades da aplicação e todas as aplicações têm em comum a api de autenticação do Google.",
+        "disciplina": "Programação Web",
+        "ano": "2º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/N-OR2MR_kVA?si=bKdqSYmoIQHIwFaC&controls=0",
+        "tecnologias": [
+            "Python , Django, Selenium",
+            "MySQL",
+            "HTML, CSS, JavaScript, Bootstrap",
+            "GitHub e PythonAnywhere"
+        ],
+        "conceitos": [
+            "Model-view-control",
+            "Framework de desenvolvimento web django, para backend e frontend",
+            "Modelação de bases de dados",
+            "Criação de interfaces Web",
+            "Desenvolvimento de APIs, web scraping e automação"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Reporting FoodMart Using PowerBI",
+        "descricao": "Projeto feito em PowerBI, onde temos como objetivo expor informação de uma empresa de alimentação, relativamente a dados estatísticos previamente estruturados.",
+        "disciplina": "Sistemas de Suporte à Decisão",
+        "ano": "2º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "PowerBI"
+        ],
+        "conceitos": [
+            "Reporting Data",
+            "PowerBI",
+            "Data Handling"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "OceanView Seats",
+        "descricao": "Este projeto consiste no desenvolvimento de um serviço distribuído de reservas de sombrinhas e espreguiçadeiras para praias no Algarve. O sistema permite que os utilizadores realizem várias ações, como por exemplo, listagem de sombrinhas (não reservadas) de uma praia, reserva de sombrinhas e cance- lamento de reservas. O serviço permite ainda registo e autenticação de utilizadores (de forma segura) de modo a que estes consigam fazer a gestão das suas reservas. Todas as operações do serviço são disponibilizadas através de uma User Interface (UI) simples e intuitiva. A arquitetura do sistema destaca-se pela eficiência e modularidade permitindo que este seja facilmente escalável.",
+        "disciplina": "Computação Distribuída",
+        "ano": "3º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/Hz9h1NiECjg?si=Oh5mAQf1B8RKU676&controls=0",
+        "tecnologias": [
+            "Java",
+            "Eclipse IDE/IntelliJ IDEA",
+            "Maven",
+            "Java RMI",
+            "Apache Tomcat",
+            "GitHub",
+            "PostgreSQL (opção do grupo)",
+            "JavaFX (opção do grupo)"
+        ],
+        "conceitos": [
+            "Arquiteturas e Modelos de Comunicação Distribuída.",
+            "Invocação Remota e Objetos Distribuídos. Modelo de execução RPC (Remote Procedure Call).",
+            "Web Services (WS). Modelo de Execução Web Services (WS). Linguagens de definição de serviços (WSDL).",
+            "REST (REpresentational State Transfer) e SOAP (Simple Object Access Protocol).",
+            "Autenticação e controlo de acessos.",
+            "Segurança. Modelo de segurança.",
+            "Modelo transacional. Propriedades ACID"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Cine Cartaz",
+        "descricao": "Desenvolver uma aplicação móvel para Android, usando Kotlin, que permite aos utilizadores registar e avaliar filmes vistos no cinema, obter informações em tempo real através da API OMDb Inclui funcionalidades como validação geográfica, fotografia de cenas, e consulta de histórico de filmes assistidos em diferentes formatos A aplicação suporta funcionalidades offline e pesquisa de filmes por voz",
+        "disciplina": "Computação Móvel",
+        "ano": "3º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "https://www.youtube.com/embed/AoDQt7YvALM?si=WfsjSXT-RIrOZ5-n&controls=0",
+        "tecnologias": [
+            "Kotlin",
+            "Android Studio",
+            "GitHub"
+        ],
+        "conceitos": [
+            "Desenvolvimento em Android Nativo",
+            "Design e navegação de telas, formulários",
+            "Persistência de dados e integração com webservices",
+            "Adaptação a diferentes configurações de dispositivos e orientações de tela"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Planeamento Celular de Redes sem Fios",
+        "descricao": "Neste projeto é desenvolvida uma aplicação Web que aborda e aplica os conceitos estudados na disciplina A aplicação integra uma apreesntação e caracterização dos principais sistemas sem fios existentes A aplicação apresenta um conjunto de funcionalidades que permitem configurar e analisar aspectos de propagação, antenas, interferencia, planeamento celular e tráfego.",
+        "disciplina": "Redes de Comunicações sem Fios",
+        "ano": "3º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Python e Django, com módulos matplotlib, seaborn, numpy, pandas",
+            "base de dados MySQL",
+            "Cloud Platform as a Service (PaaS) PythonAnywhere",
+            "Repositório GitHub"
+        ],
+        "conceitos": [
+            "sistemas de comunicações sem fios",
+            "propagação, antenas interferência e cobertura",
+            "planeamento celular",
+            "tráfego"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Análise de Dados de Campanha de Marketing",
+        "descricao": "O objetivo deste projeto é desenvolver um modelo de resposta para otimizar uma campanha de marketing, visando maximizar o lucro através do aumento das respostas ou da redução de despesas. Utilizando o conjunto de dados fornecido, que contém informações detalhadas sobre os clientes e suas interações anteriores com a empresa, a análise permitirá identificar os fatores mais influentes que levam os clientes a responder a uma oferta de produto ou serviço. Por meio da criação de gráficos e visualizações, o projeto buscará ilustrar aspectos-chave dos dados, como demografia, comportamento de compra e histórico de campanhas, fornecendo insights valiosos que ajudarão a segmentar o público-alvo e personalizar estratégias de marketing para aumentar a eficiência e o retorno sobre o investimento.",
+        "disciplina": "Programação Aplicada para Ciência de Dados",
+        "ano": "1º ano",
+        "semestre": "1º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "Python, matplotlib"
+        ],
+        "conceitos": [
+            "Análise de dados",
+            "Programação em Python, estruturas de dados e algoritmos"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "Dados Complicados – Universidade do País Das Maravilhas",
+        "descricao": "Projeto realizado com elevada interacção com o docente, tentando simular um ambiente real Processar conteúdo para varias fontes de dados (bases de dados, ficheiros de texto)Identificar dados estranhos ou inválidosDescobrir quais os dados para considerar com ajuda do &quot;data scientist&quot; Produzir data frames utilizando técnicas de data science",
+        "disciplina": "Tópicos em Engenharia de Dados para Ciência de Dados",
+        "ano": "1º ano",
+        "semestre": "2º semestre",
+        "github": "N/A",
+        "video": "N/A",
+        "tecnologias": [
+            "SQL / MySQL",
+            "Python, Pandas",
+            "GitHub"
+        ],
+        "conceitos": [
+            "Bases de Dados",
+            "Programação",
+            "Comunicação"
+        ],
+        "imagens": []
+    },
+    {
+        "nome": "The Night of the Living DEISI",
+        "descricao": "Desenvolver em Java uma aplicação gráfica (desktop) para um jogo de tabuleiro com humanos,animais,zombies e vampiros, que envolve estratégia e movimentação baseada nas características de cada um dos elementos do jogo.",
+        "disciplina": "Tópicos em Engenharia de Dados para Ciência de Dados",
+        "ano": "1º ano",
+        "semestre": "2º semestre",
+        "github": "https://github.com/pedrocardoso003/Projeto-LP2",
+        "video": "N/A",
+        "tecnologias": [
+            "Java",
+            "JUnit",
+            "GitHub",
+            "IntelliJ"
+        ],
+        "conceitos": [
+            "Utilização correta de conceitos de programação orientada a objetos como encapsulamento, herança e polimorfismo.",
+            "Boas práticas de código e design de software, com expectativa de mais de 3000 linhas de código.",
+            "Planeamento com UML antes da codificação e uso intensivo de testes unitários em JUnit para garantir qualidade."
+        ],
+        "imagens": []
+    }
+]
