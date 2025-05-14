@@ -2,7 +2,9 @@
 
 {% block content %}
 <h2>Meus Projetos</h2>
-
+ <a href="{% url 'portfolio:novo_projeto' %}">
+        <button>Inserir novo projeto</button>
+</a>
 {% for projeto in projetos %}
 <div class="projeto">
     <h3>{{ projeto.titulo }}</h3>
@@ -28,6 +30,16 @@
         <img src="{{ imagem.imagem.url }}" width="200" alt="Imagem de {{ projeto.titulo }}">
         {% endfor %}
     {% endif %}
+
+    <a href="{% url 'portfolio:edita_projeto' projeto.id %}">
+        <button>Editar informação do Projeto</button>
+    </a>
+    <br>
+    <br>
+    <a href="{% url 'portfolio:apaga_projeto' projeto.id %}">
+        <button>Apagar projeto</button>
+    </a>
+
 </div>
 <hr>
 {% endfor %}

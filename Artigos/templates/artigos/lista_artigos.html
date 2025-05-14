@@ -1,0 +1,13 @@
+{% extends "portfolio/base.html" %}
+
+{% block content %}
+  <h1>Lista de Artigos</h1>
+  <a href="{% url 'artigos:criar_artigo' %}">Novo Artigo</a>
+  <ul>
+    {% for artigo in artigos %}
+      <li>
+        <a href="{% url 'artigos:detalhe_artigo' artigo.id %}">{{ artigo.titulo }}</a> - {{ artigo.dataCriacao|date:"d M Y" }}
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

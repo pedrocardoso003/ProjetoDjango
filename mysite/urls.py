@@ -22,4 +22,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('noobsite/', include('noobsite.urls')),  # novo path
     path('portfolio/', include('portfolio.urls')),
+    path('artigos/', include('Artigos.urls')),
 ]

@@ -1,0 +1,38 @@
+{% extends "portfolio/base.html" %}
+{% block content %}
+  <h2>{{ artigo.titulo }}</h2>
+  <p><strong>Autor:</strong> {{ artigo.autor.nome }}</p>
+  <p>{{ artigo.conteudo }}</p>
+  <p><strong>Classificação média:</strong> {{ media_rating|default:"Sem rating" }}/5</p>
+  <hr>
+  <h3>Comentários</h3>
+  {% for comentario in comentarios %}
+    <p><strong>{{ comentario.autor }}</strong>: {{ comentario.texto }}</p>
+  {% empty %}
+    <p>Sem comentários ainda.</p>
+  {% endfor %}
+
+  <form method="post">
+    {% csrf_token %}
+    {{ comentario_form.as_p }}
+    <button type="submit" name="comentario_submit">Comentar</button>
+  </form>
+
+  <hr>
+  <h3>Dar Rating</h3>
+  <form method="post">
+    {% csrf_token %}
+    {{ rating_form.as_p }}
+    <button type="submit" name="rating_submit">Classificar</button>
+  </form>
+
+  <hr>
+    <a href="{% url 'artigos:editar_artigo' artigo.id %}">
+        <button>Editar artigo</button>
+    </a>
+    <br>
+    <br>
+    <a href="{% url 'artigos:apagar_artigo' artigo.id %}">
+        <button>Apagar artigo</button>
+    </a>
+{% endblock %}
